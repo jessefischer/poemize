@@ -1,3 +1,4 @@
+// Define some globals for parameters
 const poemLength = 12;
 const lineMin = 3;
 const lineMax = 12;
@@ -12,13 +13,11 @@ window.onload = function() {
     }
 }
 
-
 // Parse string into array of words, forcing lowercase and stripping punctuation.
 const parseText = (text) => text.replace( /[A-Z]/g, c => c.toLowerCase() )
                                 .replace( /[.:\',?-]/g, '' )
                                 .match( /\S+/g );
 
-                                
 const generateWordPairs = (text) => {
     let dict = {};
     let parsedText = parseText( text );
@@ -67,5 +66,3 @@ const generatePoem = ( corpus, lineCount ) => {
     }
     return poem.join( '<br>' );
 }
-
-console.log( generatePoem( poem2, 12 ) );
