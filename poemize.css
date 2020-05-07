@@ -32,7 +32,7 @@ textarea {
     height: 15em;
 	font-weight: 300;
     color: #aaaaaa;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 input[type='submit'] {
@@ -55,7 +55,7 @@ input[type='submit']:hover {
 div#results {
     width: 40%;
     text-align: left;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 
