@@ -1,2 +1,0 @@
-# poemizer
-Markov Chain Poemizer
