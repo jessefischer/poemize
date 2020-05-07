@@ -1,0 +1,72 @@
+body {
+	margin: 15px;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	background-color: #f8f8f8;
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 2.75em;
+	text-align: center;
+}
+
+form {
+	text-align: center;
+	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+input, textarea {
+	font-family: "Open Sans", "Helvetica", sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+}
+
+textarea {
+	text-align: left;
+    width: 40%;
+    height: 15em;
+	font-weight: 300;
+    color: #aaaaaa;
+    font-size: 1.2em;
+}
+
+input[type='submit'] {
+	border-radius: 25px;
+	font-size: 1em;
+	font-weight: 400;
+	padding: 15px;
+	margin: 10px;
+    color: white;
+    opacity: 0.9;
+    background-color: #333333;
+    transition: opacity 0.125s;
+}
+
+input[type='submit']:hover {
+    opacity: 1;
+    cursor: hand;
+}
+
+div#results {
+    width: 40%;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+
+p {
+	text-align: center;
+}
+
+footer {
+	padding: 15px 0;
+	text-align: center;
+	font-size: 0.75em;
+}
+
+
